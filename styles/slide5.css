@@ -1,0 +1,187 @@
+
+.parallax__group-5 {
+    position: relative;
+    width: 100%;
+    z-index: 3;
+    background-color: white;
+}
+
+.slide5 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    height: auto;
+    padding: max(5vh, 60px) var(--page-content-padding);
+    background-color: var(--background-color);
+
+    .title {
+        background: var(--linear-gradient-2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+    }
+    .download-doc {
+        position: absolute;
+        right: 100px;
+        background: var(--linear-gradient-1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        top: 65px;
+        font-size: 12px;
+        z-index: 10001;
+        cursor: pointer;
+    }
+    
+    @media screen and (max-width: 900px) {
+        .download-doc {
+            top: unset;
+            bottom: 40px;
+            left: 100px;
+        }
+    }
+
+    .payload {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 2vh;
+        justify-content: space-evenly;
+        gap: 3vw;
+        width: 100%;
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            width: 12vw;
+            min-width: 210px;
+            height: 300px;
+
+            .logo-wrapper {
+                width: 100%;
+                height: 120px;
+                position: relative;
+                margin-bottom: 1.45vw;
+
+                .logo {
+                    height: auto;
+                    width: 100%;
+                    z-index: 1002;
+                }
+            }
+
+            .info {
+                margin-top: 5vh;
+                text-align: center;
+                font-size: 12px;
+            }
+
+            .info-slide-5 {
+                text-align: center;
+                font-size: 12px;
+                width: 100%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 550px) {
+        .payload {
+            flex-direction: column;
+            gap: 20px;
+            .item {
+                flex-direction: row;
+                width: 100%;
+                max-height: 80px;
+                .logo-wrapper {
+                    min-width: 80px;
+                    width: 80px !important;
+                    height: 80px;
+                    .logo {
+                        height: auto;
+                        width: 140px !important;
+                        min-width: 140px;
+                    }
+                }
+                .info-slide-5 {
+                    display: flex;
+                    align-items: center;
+                    margin: 0 0 0 15px;
+                    min-width: 140px;
+                    max-width: 250px;
+                    text-align: unset;
+                }
+            }
+            .item:nth-child(even) {
+                margin-left: 60px;
+                width: calc(100% - 60px);
+                .info {
+                    flex: 1;
+                    font-size: 11px;
+                }
+            }
+        }
+        .dark-blue-text {
+            font-weight: normal;
+        }
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .slide5 {
+        padding: 40px var(--page-content-padding-mobile);
+        justify-content: center;
+
+        .title {
+            background: var(--linear-gradient-2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        }
+        .download-doc {
+            left: var(--page-content-padding-mobile);
+        }
+    }
+}
+
+.shell-bottom {
+    min-width: 150px;
+    width: 26vw;
+    position: absolute;
+    z-index: 1000;
+    right: -4%;
+    top: -100px;
+    transform: rotate(-90deg)
+}
+
+.dark-blue-text {
+    background: #23376C;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    align-self: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .slide5 {
+        padding: 10px 30px;
+    }
+}
+
+.slide5-lines {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    z-index: 1001;
+}
+
+@media screen and (max-width: 1426px) {
+    .slide5-lines {
+        width: 0;
+    }
+}

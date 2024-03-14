@@ -1,0 +1,13 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Стили для ползунка скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: rgb(168, 168, 168);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}

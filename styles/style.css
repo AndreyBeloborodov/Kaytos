@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    background-color: var(--background-color);
+    color: black;
+}
+
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: var(--background-color);
+    position: relative
+}
+
+.adapt-padding {
+    padding: 0 var(--parallax-padding-horizontal);
+}
+
+@media screen and (max-width: 999px) {
+    .adapt-padding {
+        padding: 0 var(--parallax-padding-horizontal-mobile)
+    }
+}
+
+.backtop-wrapper {
+    display: none;
+    position: sticky;
+    left: 90%;
+    top: 90%;
+    z-index: 100000000;
+    height: 0;
+    width: 0;
+
+    .backtop {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .backtop-wrapper {
+        left: 80%;
+    }
+}
+
