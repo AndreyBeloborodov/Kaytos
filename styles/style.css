@@ -3,3 +3,8 @@ body {
     font-family: 'Century Gothic', sans-serif;
     color: black;
 }
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/centurygothic.ttf') format('opentype');
+}
