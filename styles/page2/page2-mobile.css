@@ -21,6 +21,7 @@
         font-size: 3vw;
         margin-top: 0vh;
         font-family: Century Gothic;
+        font-weight: bold;
         text-align: center;
         color: white;
     }
@@ -32,9 +33,9 @@
     .divider {
         display: flex;
         flex: 0 0 auto;
-        background-image: linear-gradient(to right, #1c4fb5, #00b6ff);
+        background: #00b6ff;
         width: 90vw;
-        height: 0.1vh;
+        height: 0.2vh;
         margin-left: 5vw;
     }
 }

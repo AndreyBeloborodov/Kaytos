@@ -16,20 +16,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 0.98vw;
-        margin-top: -2vw;
+        font-size: 0.97vw;
+        margin-top: -3.5vw;
         font-family: Century Gothic;
+        font-weight: bold;
         text-align: center;
         color: white;
     }
     .img-icon-service {
         display: flex;
-        height: 80%;
+        height: 90%;
     }
     .divider {
         flex: 0 0 auto;
-        background-image: linear-gradient(to right, #1c4fb5, #00b6ff);
+        background: #00b6ff;
         width: 0.16vw; /* Толщина линии */
-        margin: 4vh 1vw;
+        margin: 2.75vw 1vw;
     }
 }

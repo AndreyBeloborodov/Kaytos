@@ -4,10 +4,10 @@
 
 /* Стили для ползунка скроллбара */
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(168, 168, 168);
+    background-color: #6da0b6;
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #ffffff;
+    background-color: #959fbe;
 }

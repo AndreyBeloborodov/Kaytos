@@ -48,11 +48,10 @@
 
     .caption {
         display: flex;
-        justify-content: center;
         align-items: center;
-        font-size: 1.31vw;
+        font-size: 1vw;
         font-family: Century Gothic;
-        color: white;
+        color: #FFFFFF;
         margin-top: -1.5%;
         margin-left: 1vw;
         margin-right: 2vw;
@@ -83,9 +82,9 @@
         display: flex;
         flex: 0 0 auto;
         /* border: 2px solid; */
-        background-image: linear-gradient(to right, #1c4fb5, #00b6ff);
+        background: #00FFB8;
         width: 28vw;
-        height: 0.3vh;
+        height: 0.14vh;
         margin-left: 1vw;
         margin-bottom: 2vh;
     }
