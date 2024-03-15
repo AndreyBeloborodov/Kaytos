@@ -41,7 +41,6 @@
         color: white;
         font-size: 3vw;
         font-weight: bold;
-        font-family: Century Gothic;
         margin-top: -1%;
         margin-bottom: 0;
     }
@@ -52,7 +51,6 @@
         align-items: center;
         /* width: 100%; */
         font-size: 2vw;
-        font-family: Century Gothic;
         text-align: center;
         color: white;
         margin-top: 2.5%;

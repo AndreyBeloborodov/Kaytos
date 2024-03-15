@@ -21,7 +21,6 @@
         justify-content: center;
         align-items: center;
         font-size: 3vw;
-        font-family: Century Gothic;
         font-weight: bold;
         text-align: center;
         color: white;
@@ -33,7 +32,6 @@
         justify-content: center;
         align-items: center;
         font-size: 1.45vw;
-        font-family: Century Gothic;
         text-align: center;
         color: white;
         margin-top: -1.5%;
@@ -64,7 +62,6 @@
         height: 3vw;
         background: #0275FF80;
         border-width: 0;
-        font-family: Century Gothic;
         font-size: 1.3vw;
         text-indent: 1vw;
         color: #BEE6F8;
@@ -75,7 +72,6 @@
         height: 3vw;
         background: #0275FF80;
         border-width: 0;
-        font-family: Century Gothic;
         font-size: 1.3vw;
         text-indent: 1vw;
         color: #BEE6F8;
@@ -92,7 +88,6 @@
         background: linear-gradient(263.74deg, #00FFB8 0%, #019CEB 50.08%, #0275FF 100%);
         border-width: 0;
         color: white;
-        font-family: Century Gothic;
         font-weight: bold;
         font-size: 2vw;
         box-shadow: 0 0 20px 6px rgba(0, 120, 255, 0.8);
@@ -109,7 +104,6 @@
 
     .p-last {
         color: #5F8FD9;
-        font-family: Century Gothic;
         font-size: 1vw;
     }
 
