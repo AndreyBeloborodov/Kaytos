@@ -98,4 +98,8 @@
         height: 2.7vw;
         background: #4C77BF;
     }
+
+    .not-see {
+        display: none;
+    }
 }

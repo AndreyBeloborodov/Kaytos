@@ -10,6 +10,10 @@
         width: 45%;
     }
 
+    .page4-back-img {
+        display: none;
+    }
+
     .div-for-form {
         display: flex;
         flex-direction: column;
